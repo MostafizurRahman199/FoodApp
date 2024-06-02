@@ -1,0 +1,19 @@
+have to create account there and verified by email
+
+need API key for call data
+
+u need to install PostMan for API request , that is also in VS code extension
+
+
+install from here
+
+After sign in using email it back you here.
+
+We find result after adding API key, this is api call.
+Post man help to use API call .
+
+
+Now lets see how use API call in React Application
+
+
+let save the input in state!
