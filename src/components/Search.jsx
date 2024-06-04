@@ -23,7 +23,7 @@ export default function Search({foodData, setFoodData}) {
   }, [query]);
 
   return (
-    <div className="flex justify-center mt-4">
+    <div className="fixed top-16 flex justify-center mt-2 bg-white w-full h-20 text-center ">
       <input
         type="text"
         value={query}
@@ -31,7 +31,7 @@ export default function Search({foodData, setFoodData}) {
           setQuery(e.target.value);
         }}
         className="fixed top-24 font-thin text-center outline-none border-b-2 w-1/3 border-pink-600 text-3xl text-pink-600 focus:border-violet-600 border-l-none border-r-none shadow-2xl  focus:text-violet-600"
-        placeholder="Enter Food Name"  
+        placeholder="Search"  
       />
 
 

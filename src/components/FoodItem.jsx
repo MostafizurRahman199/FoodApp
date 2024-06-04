@@ -25,6 +25,7 @@ const handleModal = (btn)=>{
 
 // const handleModal = (btn)=>{
 //     setModalOpen(btn);
+
 //   }
 
 console.log(foodId);
